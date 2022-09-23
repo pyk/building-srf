@@ -7,3 +7,5 @@ async function main() {
         outfile: ".srf/worker.js",
     });
 }
+
+main();
