@@ -1,5 +1,4 @@
 import { build } from "esbuild";
-
 async function main() {
     await build({
         bundle: true,
@@ -13,5 +12,4 @@ async function main() {
         outfile: ".surf/worker.js",
     });
 }
-
 main();
