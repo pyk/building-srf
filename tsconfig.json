@@ -1,8 +1,11 @@
 {
-    "extends": "@risedle/tsconfig/node.json",
     "compilerOptions": {
-        "outDir": "dist"
-    },
-    "include": ["src/**/*.ts"],
-    "exclude": ["node_modules", "dist"]
+        "target": "esnext",
+        "lib": ["esnext", "webworker"],
+        "strict": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "types": ["@cloudflare/workers-types"]
+    }
 }
