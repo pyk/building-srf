@@ -5,12 +5,13 @@ async function main() {
         bundle: true,
         format: "esm",
         mainFields: ["browser", "module", "main"],
-        platform: "neutral",
+        platform: "browser",
         target: "es2020",
         sourcemap: false,
         charset: "utf8",
         entryPoints: ["src/entry.worker.tsx"],
         outfile: ".surf/worker.js",
+        tsconfig: "worker.tsconfig.json",
     });
 }
 

@@ -6,7 +6,7 @@
         "wrangler:publish": "wrangler publish",
         "prettier": "prettier",
         "prettier:check": "prettier --check .",
-        "build": "tsc",
+        "build": "tsc -p node.tsconfig.json",
         "lint": "eslint ."
     },
     "prettier": "@risedle/prettier-config",
