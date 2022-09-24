@@ -2,6 +2,6 @@
 
 On my way building Speedy React Framework.
 
--   [Building SRF, Part 1][1]
+-   [Building Surf - Speedy React Framework][1]
 
-[1]: https://pyk.sh/building-srf-part-1/
+[1]: https://pyk.sh/building-surf
