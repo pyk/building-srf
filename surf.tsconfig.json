@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "module": "nodenext",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "es6"
+    },
+    "include": ["src/surf.ts"],
+    "exclude": ["node_modules", "dist"]
+}
